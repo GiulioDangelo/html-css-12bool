@@ -1,0 +1,9 @@
+[class*="col-"]{
+    background-color: crimson;
+    min-height: 100px;
+    margin-top: 1px;
+}
+
+.last{
+    margin-bottom: 20px;
+}
