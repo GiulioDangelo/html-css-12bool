@@ -1,9 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 [class*="col-"]{
     background-color: crimson;
-    min-height: 100px;
+    min-height: 50px;
     margin-top: 1px;
+    border: 1px solid black;
+    flex-grow: 1;
+    flex-shrink: 0;
+    color: white;
+    text-align: center;
 }
 
 .last{
     margin-bottom: 20px;
+}
+
+.green{
+    background-color: lime;
+}
+
+.content{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
